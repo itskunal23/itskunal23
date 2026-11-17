@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=SF+Pro+Display&size=28&duration=3000&pause=1000&color=0071E3&center=true&vCenter=true&width=700&lines=AI+Engineer;OMSCS+AI+%40+Georgia+Tech;3+LangGraph+Agents+in+Production" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=SF+Pro+Display&size=28&duration=3000&pause=1000&color=0071E3&center=true&vCenter=true&width=700&lines=AI+Engineer;OMSCS+AI+%40+Georgia+Tech;Building+AI+Agents" alt="Typing Animation" />
 </p>
 
 <p align="center">
@@ -30,49 +30,13 @@
 ```swift
 struct KunalGoenka: Engineer {
     let role = "AI Engineer"
-    let specialization = ["LangGraph Production Agents", "RAG at Scale", "MCP Integrations"]
+    let specialization = ["LangGraph Agents", "RAG Systems", "MCP Integrations"]
     let education = "OMSCS AI @ Georgia Tech"
     let focus = "Production AI Systems"
     let location = "Washington, DC"
     let principle = "Ship reliable AI"
 }
 ```
-
-</div>
-
----
-
-## Production Stack
-
-<div align="center">
-
-| **Agentic Systems (Prod)** | **Cloud & Infrastructure** | **Languages** | **Data & ML Ops** |
-|:---:|:---:|:---:|:---:|
-| LangGraph, LangChain | AWS (SAA Certified), Kubernetes | Python, TypeScript, Go | PyTorch, MLflow, W&B |
-| MCP, Function Calling | Terraform, ArgoCD, GitHub Actions | Rust, Swift, SQL | Ray, vLLM, Triton |
-| RAG (94% recall at 2M docs) | Docker, CI/CD |  | Pinecone, Weaviate |
-
-</div>
-
-3 LangGraph agents in production, 50k req/day, 99.9% uptime, <200ms p99 latency
-
----
-
-## GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=itskunal23&show_icons=true&theme=transparent&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=FFFFFF&text_color=8E8E93&icon_color=0071E3&border_radius=16" alt="GitHub Stats" height="180" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itskunal23&layout=compact&theme=transparent&hide_border=true&langs_count=8&size_weight=0.5&count_weight=0.5&bg_color=00000000&title_color=FFFFFF&text_color=8E8E93&border_radius=16" alt="Top Languages" height="180" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=itskunal23&theme=transparent&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=00000000&stroke=1D1D1F&ring=0071E3&fire=0071E3&currStreakLabel=FFFFFF&sideNums=8E8E93&sideLabels=8E8E93&border_radius=16" alt="GitHub Streak" height="180" />
-
-<img src="https://komarev.com/ghpvc/?username=itskunal23&style=flat-square&color=0071E3&label=Profile+Views&labelColor=1D1D1F" alt="Profile Views" height="180" />
 
 </div>
 
@@ -101,7 +65,7 @@ struct KunalGoenka: Engineer {
 
 | Course | Project | Outcome |
 |:---|:---|:---|
-| **CS 8803 - Large Language Models** | Fine-tuned Llama-3 on aviation maintenance corpus | 94% recall on RAG eval |
+| **CS 8803 - Large Language Models** | Fine-tuned Llama-3 on domain-specific corpus | 94% recall on RAG eval |
 | **CS 7646 - ML for Trading** | Momentum strategy backtest | 1.8 Sharpe, 12% annualized |
 | **CS 7638 - AI Planning (KBAI)** | ARC-AGI Milestones A & B: 100/100. Mini-Projects: Semantic Nets (40/40), Block World, Sentence Reading. Agents: Tic-Tac-Toe, Connect 4, Chinese Checkers | All submitted, perfect on ARC |
 | **CS 7641 - Machine Learning** | Ensemble methods for tabular data | Top 10% on course Kaggle |
@@ -111,6 +75,26 @@ struct KunalGoenka: Engineer {
 </div>
 
 KBAI Repository: [`Knowledge Based AI`](https://github.com/itskunal23/Knowledge-Based-AI) - Combined repo of all CS 7637 projects, homework, and journals (ARC-AGI 100/100, 6 mini-projects, 25 lecture notes)
+
+---
+
+## GitHub Analytics
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=itskunal23&show_icons=true&theme=transparent&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=FFFFFF&text_color=8E8E93&icon_color=0071E3&border_radius=16" alt="GitHub Stats" height="180" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itskunal23&layout=compact&theme=transparent&hide_border=true&langs_count=8&size_weight=0.5&count_weight=0.5&bg_color=00000000&title_color=FFFFFF&text_color=8E8E93&border_radius=16" alt="Top Languages" height="180" />
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=itskunal23&theme=transparent&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=00000000&stroke=1D1D1F&ring=0071E3&fire=0071E3&currStreakLabel=FFFFFF&sideNums=8E8E93&sideLabels=8E8E93&border_radius=16" alt="GitHub Streak" height="180" />
+
+<img src="https://komarev.com/ghpvc/?username=itskunal23&style=flat-square&color=0071E3&label=Profile+Views&labelColor=1D1D1F" alt="Profile Views" height="180" />
+
+</div>
 
 ---
 
@@ -132,7 +116,7 @@ Loading WakaTime stats...
 
 <div align="center">
 
-Open to discussing: Agent architecture, MCP integration, OMSCS admissions, ML certification
+Open to discussing: Agent architecture, MCP integration, OMSCS admissions, AI engineering
 
 </div>
 
