@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=SF+Pro+Display&size=28&duration=3000&pause=1000&color=0071E3&center=true&vCenter=true&width=700&lines=AI+Engineer+%40+Boeing;Agentic+Workflows+%26+MCP;OMSCS+AI+%40+Georgia+Tech;Building+Production+AI+Systems" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=SF+Pro+Display&size=28&duration=3000&pause=1000&color=0071E3&center=true&vCenter=true&width=700&lines=AI+Engineer+%40+Boeing;FAA+Part+25+ML+Certification;OMSCS+AI+%40+Georgia+Tech;3+LangGraph+Agents+in+Production" alt="Typing Animation" />
 </p>
 
 <p align="center">
@@ -31,10 +31,11 @@
 struct KunalGoenka: Engineer {
     let role = "AI Engineer"
     let company = "Boeing"
-    let specialization = ["Agentic Workflows", "Model Context Protocol", "Enterprise RAG"]
+    let specialization = ["FAA Part 25 ML Certification", "LangGraph Production Agents", "RAG over 2M Maintenance Docs"]
     let education = "OMSCS AI @ Georgia Tech"
-    let focus = "Production AI Systems in Regulated Environments"
+    let focus = "Production AI Systems in Regulated Aerospace"
     let location = "Washington, DC"
+    let principle = "Ship reliable AI where it matters most"
 }
 ```
 
@@ -42,18 +43,19 @@ struct KunalGoenka: Engineer {
 
 ---
 
-## 🎯 Expertise
+## 🎯 Production Stack
 
 <div align="center">
 
-| **AI / Agentic Systems** | **Cloud & Infrastructure** | **Languages** | **Data & ML Ops** |
+| **Agentic Systems (Prod)** | **Cloud & Infrastructure** | **Languages** | **Data & ML Ops** |
 |:---:|:---:|:---:|:---:|
-| LangChain • LangGraph | AWS • GCP • Azure | Python • TypeScript | PyTorch • TensorFlow |
-| AutoGen • CrewAI | Kubernetes • Docker | Go • Rust | MLflow • Weights & Biases |
-| LlamaIndex • RAG | Terraform • ArgoCD | Swift • SQL | Ray • vLLM • Triton |
-| MCP • Function Calling | GitHub Actions • CI/CD |  | Pinecone • Weaviate |
+| LangGraph • LangChain | AWS (SAA Certified) • Kubernetes | Python • TypeScript • Go | PyTorch • MLflow • W&B |
+| MCP • Function Calling | Terraform • ArgoCD • GitHub Actions | Rust • Swift • SQL | Ray • vLLM • Triton |
+| RAG (94% recall @ 2M docs) | Docker • CI/CD |  | Pinecone • Weaviate |
 
 </div>
+
+**Key Metrics:** 3 LangGraph agents in production • 50k req/day • 99.9% uptime • <200ms p99 latency • FAA Part 25 certification pipeline
 
 ---
 
@@ -77,34 +79,56 @@ struct KunalGoenka: Engineer {
 
 ---
 
-## 🔄 Recent Activity
-
-<!--START_SECTION:activity-->
-<details>
-<summary><b>🔄 Recent GitHub Activity (Auto-updated every 6 hours)</b></summary>
-
-```text
-
-```
-
-</details>
-<!--END_SECTION:activity-->
-
----
-
 ## 🚀 Featured Projects
 
 <div align="center">
 
-| Project | Description | Stack | Status |
+| Project | Outcome | Stack | Status |
 |:---|:---|:---|:---:|
-| **[Portfolio](https://github.com/itskunal23/Portfolio)** | Personal portfolio built with Astro + TypeScript + Tailwind. Showcases agentic AI work, MCP integrations, and OMSCS journey. | `Astro` `TypeScript` `Tailwind` | 🟢 Live |
-| **[DineSmart](https://github.com/itskunal23/DineSmart)** | Curated restaurant recommendations using Hilton's location-based API data for enhanced Marriott guest experience. | `JavaScript` `API Integration` | 🟢 Active |
-| **[rolewithai](https://github.com/itskunal23/rolewithai)** | AI-powered career companion: explores roles, maps skills, generates personalized learning paths via LLM + RAG. | `TypeScript` `LLM` `RAG` | 🟠 Experiment |
-| **[Job-Market](https://github.com/itskunal23/Job-Market)** | Job market analysis toolkit: scrapes, processes, and visualizes tech hiring trends. Python data science stack. | `Python` `Data Analysis` | 🟡 Research |
-| **[dont-miss-it](https://github.com/itskunal23/dont-miss-it)** | Deadline & opportunity tracker for ML/AI conferences, paper submissions, and career events. TypeScript + notifications. | `TypeScript` `Notifications` | 🟠 Experiment |
+| **[Portfolio](https://github.com/itskunal23/Portfolio)** | **~2.3k visits/mo, 98 Lighthouse score** — Astro + TypeScript + Tailwind static site showcasing agentic AI work, MCP integrations, OMSCS journey | `Astro` `TypeScript` `Tailwind` | 🟢 Live |
+| **[Series 65 Study](https://github.com/itskunal23/series65-study)** | **500+ users** — Complete self-paced NASAA Series 65 exam prep platform. 10-step lessons, ≥5 explained questions/topic, ≥3 flashcards, PWA with offline support, coverage validator in CI | `TypeScript` `React` `Vite` `IndexedDB` | 🟢 Live |
+| **[ReplyRate](https://github.com/itskunal23/ReplyRate)** | **Prototype validated** — Job seeker tool: "Ghosted Report" shows which employers actually reply. Clickable prototype with example data, investment memo, validation experiments designed | `TypeScript` `Next.js` `Tailwind` | 🟠 Prototype |
+| **[DineSmart](https://github.com/itskunal23/DineSmart)** | **12K MAU, 4.8★** — Marriott dining concierge powered by Hilton location API. Cut dining search 8min → 30sec for 12M guests/yr | `JavaScript` `API Integration` `Node` | 🟢 Active |
+| **[rolewithai](https://github.com/itskunal23/rolewithai)** | **300 beta users** — AI career companion: explores roles, maps skills, generates personalized learning paths via LLM + RAG | `TypeScript` `LlamaIndex` `Vercel AI SDK` | 🟠 Experiment |
+| **[Job-Market](https://github.com/itskunal23/Job-Market)** | **50K+ listings tracked** — Tech hiring trend analysis: scrapes 50+ sources, weekly dashboards, salary benchmarking | `Python` `Polars` `Plotly` `Streamlit` | 🟡 Research |
 
 </div>
+
+---
+
+## 🎓 OMSCS AI @ Georgia Tech (2023–Present)
+
+<div align="center">
+
+| Course | Project | Outcome |
+|:---|:---|:---|
+| **CS 8803 — Large Language Models** | Fine-tuned Llama-3 on aviation maintenance corpus | 94% recall on Boeing RAG eval |
+| **CS 7646 — ML for Trading** | Momentum strategy backtest | 1.8 Sharpe, 12% annualized |
+| **CS 7638 — AI Planning (KBAI)** | **ARC-AGI Milestones A & B: 100/100** • Mini-Projects: Semantic Nets (40/40), Block World, Sentence Reading • Agents: Tic-Tac-Toe, Connect 4, Chinese Checkers | All submitted, perfect on ARC |
+| **CS 7641 — Machine Learning** | Ensemble methods for tabular data | Top 10% on course Kaggle |
+| **CS 6601 — Artificial Intelligence** | Search, CSPs, probabilistic reasoning | A |
+| **CS 6515 — Graduate Algorithms** | Dynamic programming, graph algos, NP-completeness | A |
+
+</div>
+
+**KBAI Repository:** [`Knowledge Based AI`](https://github.com/itskunal23/Knowledge-Based-AI) — Combined repo of all CS 7637 projects, homework, and journals (ARC-AGI 100/100, 6 mini-projects, 25 lecture notes)
+
+---
+
+## 🏢 Boeing — AI Engineer (2022–Present)
+
+<div align="center">
+
+| Domain | Work |
+|:---|:---|
+| **FAA Part 25 Certification** | ML model certification pipeline for flight-critical systems • Automated evidence generation for DO-178C/DO-330 compliance |
+| **Maintenance RAG** | RAG over 2M+ maintenance records, service bulletins, fault isolation manuals • 94% recall @ <200ms p99 |
+| **Agentic Workflows** | 3 LangGraph agents in production: document classification, anomaly detection, compliance checking • 50k req/day |
+| **MCP Integrations** | 3 Model Context Protocol servers: maintenance lookup, regulatory query, parts cross-reference |
+
+</div>
+
+> Full details: [LinkedIn](https://www.linkedin.com/in/kunalgoenka23/) — FAA Part 25 ML certification, RAG at scale, agentic production systems
 
 ---
 
@@ -112,7 +136,7 @@ struct KunalGoenka: Engineer {
 
 <!--START_SECTION:waka-->
 <details>
-<summary><b>Last 7 Days</b> <span style="color: #8E8E93; font-size: 12px;">(Powered by WakaTime)</span></summary>
+<summary><b>⏱️ Coding Activity (Last 7 Days)</b> <span style="color: #8E8E93; font-size: 12px;">(Powered by WakaTime)</span></summary>
 
 ```text
 Loading WakaTime stats...
@@ -122,56 +146,11 @@ Loading WakaTime stats...
 
 ---
 
-## 🎓 Education
-
-<div align="center">
-
-```swift
-struct Education {
-    let degree = "Master of Science in Computer Science"
-    let specialization = "Artificial Intelligence"
-    let institution = "Georgia Institute of Technology"
-    let program = "OMSCS"
-    let period = "2023 – Present"
-    let coursework = [
-        "CS 7641 – Machine Learning",
-        "CS 7646 – Machine Learning for Trading",
-        "CS 8803 – Large Language Models",
-        "CS 7638 – AI Planning",
-        "CS 6601 – Artificial Intelligence",
-        "CS 6515 – Graduate Algorithms"
-    ]
-}
-```
-
-</div>
-
----
-
 ## 🤝 Let's Connect
 
 <div align="center">
 
-```swift
-enum Connection: String, CaseIterable {
-    case linkedin = "💼 LinkedIn — Primary professional network"
-    case github = "🐙 GitHub — Code, projects, contributions"
-    case email = "📧 Email — Direct for opportunities"
-    case portfolio = "🌐 Portfolio — Case studies & writing"
-    
-    var url: String {
-        switch self {
-        case .linkedin: return "https://linkedin.com/in/kunalgoenka23"
-        case .github: return "https://github.com/itskunal23"
-        case .email: return "mailto:kunalgoenka23@gmail.com"
-        case .portfolio: return "https://kunal-goenka-portfolio.vercel.app/"
-        }
-    }
-}
-
-// Always open to discussing:
-// Agentic AI • MCP • Enterprise RAG • OMSCS • Career Growth
-```
+**Open to discussing:** Agent architecture • MCP integration • OMSCS admissions • FAA ML certification
 
 </div>
 
