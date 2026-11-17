@@ -1,0 +1,49 @@
+name: Update GitHub Activity
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:  # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Update README with Recent Activity
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch recent activity
+        id: activity
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          max_lines: 5
+          exclude_repo: itskunal23/itskunal23
+
+      - name: Update README
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const readme = fs.readFileSync('README.md', 'utf8');
+
+            const activity = `${{ steps.activity.outputs.activity }}`;
+            const newReadme = readme.replace(
+              /<!--START_SECTION:activity-->[\s\S]*?<!--END_SECTION:activity-->/,
+              `<!--START_SECTION:activity-->\n<details>\n<summary><b>🔄 Recent GitHub Activity (Auto-updated every 6 hours)</b></summary>\n\n\`\`\`text\n${activity}\n\`\`\`\n\n</details>\n<!--END_SECTION:activity-->`
+            );
+
+            fs.writeFileSync('README.md', newReadme);
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: update recent activity [skip ci]"
+          git push
