@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://kunalgoenka.com/" target="_blank">
+  <a href="https://kunal-goenka-portfolio.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Kunal_Goenka-000000?style=for-the-badge&logo=apple&logoColor=white&labelColor=000000&color=000000" alt="Kunal Goenka" />
   </a>
 </p>
@@ -18,7 +18,7 @@
   <a href="mailto:kunalgoenka23@gmail.com" style="margin: 0 8px;">
     <img src="https://img.shields.io/badge/Email-0071E3?style=flat&logo=apple&logoColor=white&labelColor=1D1D1F&color=0071E3" alt="Email" />
   </a>
-  <a href="https://kunalgoenka.com/" target="_blank" style="margin: 0 8px;">
+  <a href="https://kunal-goenka-portfolio.vercel.app/" target="_blank" style="margin: 0 8px;">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=safari&logoColor=white&labelColor=1D1D1F&color=000000" alt="Portfolio" />
   </a>
 </p>
