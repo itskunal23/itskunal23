@@ -61,18 +61,12 @@ struct KunalGoenka: Engineer {
 
 ## OMSCS AI @ Georgia Tech (2023 - Present)
 
-<div align="center">
+**CS 7637 - Knowledge-Based AI** (Fall 2026) with David Joyner and Ashok Goel
 
-| Course | Project | Outcome |
-|:---|:---|:---|
-| **CS 8803 - Large Language Models** | Fine-tuned Llama-3 on domain-specific corpus | 94% recall on RAG eval |
-| **CS 7646 - ML for Trading** | Momentum strategy backtest | 1.8 Sharpe, 12% annualized |
-| **CS 7638 - AI Planning (KBAI)** | ARC-AGI Milestones A & B: 100/100. Mini-Projects: Semantic Nets (40/40), Block World, Sentence Reading. Agents: Tic-Tac-Toe, Connect 4, Chinese Checkers | All submitted, perfect on ARC |
-| **CS 7641 - Machine Learning** | Ensemble methods for tabular data | Top 10% on course Kaggle |
-| **CS 6601 - Artificial Intelligence** | Search, CSPs, probabilistic reasoning | A |
-| **CS 6515 - Graduate Algorithms** | Dynamic programming, graph algos, NP-completeness | A |
-
-</div>
+- ARC-AGI Milestones A & B: 100/100
+- Mini-Projects: Semantic Nets (40/40), Block World, Sentence Reading
+- Agents: Tic-Tac-Toe, Connect 4, Chinese Checkers
+- All submitted, perfect on ARC
 
 KBAI Repository: [`Knowledge Based AI`](https://github.com/itskunal23/Knowledge-Based-AI) - Combined repo of all CS 7637 projects, homework, and journals (ARC-AGI 100/100, 6 mini-projects, 25 lecture notes)
 
