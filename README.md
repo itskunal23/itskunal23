@@ -80,8 +80,8 @@ struct KunalGoenka: Engineer {
 ## 🔄 Recent Activity
 
 <!--START_SECTION:activity-->
-<details>
-<summary><b>Recent GitHub Activity</b> <span style="color: #8E8E93; font-size: 12px;">(Auto-updated every 6 hours)</span></summary>
+1. 🎉 Merged PR [#1](https://github.com/itskunal23/Portfolio/pull/1) in [itskunal23/Portfolio](https://github.com/itskunal23/Portfolio)
+2. 💪 Opened PR [#1](https://github.com/itskunal23/Portfolio/pull/1) in [itskunal23/Portfolio](https://github.com/itskunal23/Portfolio)
 
 ```text
 Loading recent activity...
