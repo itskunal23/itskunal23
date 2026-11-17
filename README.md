@@ -98,28 +98,13 @@ struct KunalGoenka: Engineer {
 
 | Project | Description | Stack | Status |
 |:---|:---|:---|:---:|
-| **[DineSmart](https://github.com/itskunal23/DineSmart)** | Curated restaurant recommendations using location-based API data for enhanced guest experience | `JavaScript` `API Integration` | 🟢 Active |
-| **[Portfolio](https://github.com/itskunal23/Portfolio)** | Personal portfolio built with Astro showcasing agentic AI work | `Astro` `TypeScript` `Tailwind` | 🟢 Live |
-| **[Job-Market](https://github.com/itskunal23/Job-Market)** | Job market analysis and trends tracking | `Python` `Data Analysis` | 🟡 Research |
-| **[rolewithai](https://github.com/itskunal23/rolewithai)** | AI-powered role exploration and career guidance | `JavaScript` `AI Integration` | 🟠 Experiment |
+| **[Portfolio](https://github.com/itskunal23/Portfolio)** | Personal portfolio built with Astro + TypeScript + Tailwind. Showcases agentic AI work, MCP integrations, and OMSCS journey. | `Astro` `TypeScript` `Tailwind` | 🟢 Live |
+| **[DineSmart](https://github.com/itskunal23/DineSmart)** | Curated restaurant recommendations using Hilton's location-based API data for enhanced Marriott guest experience. | `JavaScript` `API Integration` | 🟢 Active |
+| **[rolewithai](https://github.com/itskunal23/rolewithai)** | AI-powered career companion: explores roles, maps skills, generates personalized learning paths via LLM + RAG. | `TypeScript` `LLM` `RAG` | 🟠 Experiment |
+| **[Job-Market](https://github.com/itskunal23/Job-Market)** | Job market analysis toolkit: scrapes, processes, and visualizes tech hiring trends. Python data science stack. | `Python` `Data Analysis` | 🟡 Research |
+| **[dont-miss-it](https://github.com/itskunal23/dont-miss-it)** | Deadline & opportunity tracker for ML/AI conferences, paper submissions, and career events. TypeScript + notifications. | `TypeScript` `Notifications` | 🟠 Experiment |
 
 </div>
-
-<details>
-<summary><b>🔬 Research & Experiments</b></summary>
-
-<div align="center">
-
-| Project | Focus | Status |
-|:---|:---|:---:|
-| `agentic-workflow-framework` | Multi-agent orchestration | 🧪 Prototype |
-| `mcp-integration-toolkit` | MCP server/client patterns | 🧪 Prototype |
-| `enterprise-rag-pipeline` | RAG in regulated environments | 🔬 Research |
-| `llm-eval-harness` | LLM evaluation framework | 🧪 Prototype |
-| `kubernetes-ai-operator` | K8s operator for AI workloads | 🧪 Prototype |
-
-</div>
-</details>
 
 ---
 
@@ -179,7 +164,7 @@ enum Connection: String, CaseIterable {
         case .linkedin: return "https://linkedin.com/in/kunalgoenka23"
         case .github: return "https://github.com/itskunal23"
         case .email: return "mailto:kunalgoenka23@gmail.com"
-        case .portfolio: return "https://kunalgoenka.com"
+        case .portfolio: return "https://kunal-goenka-portfolio.vercel.app/"
         }
     }
 }
@@ -208,7 +193,7 @@ enum Connection: String, CaseIterable {
   </a>
 </td>
 <td align="center" width="25%">
-  <a href="https://kunalgoenka.com" target="_blank">
+  <a href="https://kunal-goenka-portfolio.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=safari&logoColor=white&labelColor=1D1D1F" alt="Portfolio" />
   </a>
 </td>
