@@ -1,0 +1,17 @@
+name: GitHub City
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: github-city
+  cancel-in-progress: false
+jobs:
+  city:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      # v1, pinned to a reviewed commit
+      - uses: codebywater/github-city@de2723648cd8fea8bcefeecce044180ef9052417
